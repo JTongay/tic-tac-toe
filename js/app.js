@@ -17,8 +17,8 @@
       } else {
         if (player === 1) {
           squareSelected.addClass('fa fa-times');
-          $('#p1').show();
-          $('#p2').hide();
+          $('#p1').hide();
+          $('#p2').show();
           if (checkIfPlayerWon('fa fa-times')) {
             alert("Congrats! Player " + player + " has won!")
           } else {
@@ -27,8 +27,8 @@
 
         } else if (player === 2) {
           squareSelected.addClass('fa fa-circle-o');
-          $('#p1').hide();
-          $('#p2').show();
+          $('#p1').show();
+          $('#p2').hide();
           if (checkIfPlayerWon('fa fa-circle-o')) {
             alert("Congrats! Player " + player + " has won!")
           } else {
